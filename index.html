@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Cordinates Randomizer</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="container">
+  <h1>🌍 Random Coordinates Generator</h1>
+  <p class="subtitle">Menghasilkan koordinat Latitude & Longitude yang benar-benar acak di seluruh dunia.</p>
+  
+  <div class="card">
+    <div class="coord-box">
+      <span class="label">Latitude:</span>
+      <span id="lat-val" class="value">-</span>
+    </div>
+    <div class="coord-box">
+      <span class="label">Longitude:</span>
+      <span id="lng-val" class="value">-</span>
+    </div>
+    <div class="coord-box full">
+      <span class="label">Gabungan:</span>
+      <span id="full-val" class="value-combined">Klik tombol di bawah</span>
+    </div>
+  </div>
+
+  <div class="btn-group">
+    <button id="btn-generate" class="btn btn-primary">🎲 Acak Koordinat</button>
+    <button id="btn-copy" class="btn btn-secondary" disabled>📋 Salin</button>
+    <a id="btn-maps" class="btn btn-danger disabled" target="_blank" href="#">📍 Google Maps</a>
+  </div>
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
